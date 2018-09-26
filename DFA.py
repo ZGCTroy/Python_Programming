@@ -23,6 +23,22 @@ class DFA:
         self.Kt=Kt
 
     def minimize(self):
+        C=[]
+        C.append(self.Kt)
+        C.append(self.K.difference(self.Kt))
+        num_of_subset=2
+        while True:
+            for subset in C:
+                for item in subset:
+                    for i in self.f:
+                        for j in self.f[i]:
+                            print(j)
+            if len(newC) <= num_of_subset:
+                break
+            else:
+                num_of_subset=len(newC)
+
+
 
 
     def read_from_keyboard(self):
@@ -67,6 +83,7 @@ def main():
     D = DFA()
     D.read_from_file("./datain.txt")
     D.print()
+    D.minimize()
 
 if __name__=='__main__':
     main()

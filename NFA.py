@@ -38,7 +38,7 @@ class NFA:
         for i in self.Sigma:
             if i!='e0':
                 D.Sigma.add(i)
-                D.f[i]=[]
+                D.f[i]=set()
         l=0
         r=1
         while l<r:
@@ -54,7 +54,7 @@ class NFA:
                             D.Kt.add(r)
                         C.append(newT)
                         # 添加DFA的f
-                        D.f[i].append([l, r])
+                        D.f[i].add((l, r))
                         r=r+1
                     else:
                         pos=0
@@ -62,7 +62,7 @@ class NFA:
                             if t==newT:
                                 break
                             pos=pos+1
-                        D.f[i].append([l,pos])
+                        D.f[i].add((l,pos))
             l = l + 1
         return D
 
