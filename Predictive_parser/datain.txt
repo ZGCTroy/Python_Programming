@@ -1,0 +1,27 @@
+开始符集:
+<bexpr>
+#
+终结符集:
+or
+and
+not
+ture
+false
+(
+)
+#
+非终结符集:
+<bexpr>
+<bterm>
+<bfactor>
+#
+规则集:
+<bexpr> -> <bexpr> or <bterm>
+<bexpr> -> <bterm>
+<bterm> -> <bterm> and <bfactor>
+<bterm> -> <bfactor>
+<bfactor> -> not <bfactor>
+<bfactor> -> ( <bexpr> )
+<bfactor> -> ture
+<bfactor> -> false
+#

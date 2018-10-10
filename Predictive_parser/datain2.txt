@@ -1,0 +1,23 @@
+<bexpr>
+#
+or
+and
+not
+ture
+false
+(
+)
+#
+<bexpr>
+<bterm>
+<bfactor>
+#
+<bexpr> -> <bexpr> or <bterm>
+<bexpr> -> <bterm>
+<bterm> -> <bterm> and <bfactor>
+<bterm> -> <bfactor>
+<bfactor> -> not <bfactor>
+<bfactor> -> ( <bexpr> )
+<bfactor> -> ture
+<bfactor> -> false
+#

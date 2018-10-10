@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0539ba8-e045-4fa9-9ced-db452ab939d9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/CompilerPrinciple/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Predictive_parser/Grammar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Predictive_parser/Predictive_Parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Predictive_parser/datain.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Predictive_parser/datain2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Predictive_parser/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DFA.py" beforeDir="false" afterPath="$PROJECT_DIR$/DFA.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NFA.py" beforeDir="false" afterPath="$PROJECT_DIR$/NFA.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transer.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datain.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datain.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,36 +20,38 @@
     <session id="-2057367863">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="5" />
-          <entry key="txt" value="2" />
+          <entry key="png" value="7" />
+          <entry key="py" value="27" />
+          <entry key="txt" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="5" />
+          <entry key="Image" value="7" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="Python" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="27" />
-          <entry key="py" value="4411" />
-          <entry key="txt" value="202" />
+          <entry key="dummy" value="85" />
+          <entry key="py" value="7188" />
+          <entry key="txt" value="523" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="229" />
-          <entry key="Python" value="4411" />
+          <entry key="PLAIN_TEXT" value="608" />
+          <entry key="Python" value="7188" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -56,47 +60,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NFA.py">
+        <entry file="file://$PROJECT_DIR$/Predictive_parser/Grammar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="605">
-              <caret line="133" column="4" selection-start-line="133" selection-start-column="4" selection-end-line="137" selection-end-column="13" />
+            <state relative-caret-position="377">
+              <caret line="84" column="25" lean-forward="true" selection-start-line="84" selection-start-column="25" selection-end-line="84" selection-end-column="25" />
               <folding>
-                <marker date="1537428178327" expanded="true" signature="271:276" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/datain.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="79" selection-start-line="4" selection-start-column="79" selection-end-line="4" selection-end-column="79" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DFA.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-174">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-              <folding>
-                <marker date="1537429057574" expanded="true" signature="656:1099" ph="..." />
+                <marker date="1539173517747" expanded="true" signature="14:19" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.py">
+        <entry file="file://$PROJECT_DIR$/Predictive_parser/Predictive_Parser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="358">
+              <caret line="40" column="39" lean-forward="true" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
               <folding>
-                <element signature="e#246#263#0" expanded="true" />
-                <marker date="1537990827524" expanded="true" signature="318:501" ph="..." />
+                <marker date="1539173562409" expanded="true" signature="53:58" ph="..." />
+                <marker date="1539173562409" expanded="true" signature="648:653" ph="..." />
+                <marker date="1539173562409" expanded="true" signature="1388:1389" ph="..." />
+                <marker date="1539173562409" expanded="true" signature="1400:1509" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CompilerPrinciple/AnalysisTable/SelectSet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="28" selection-start-line="28" selection-end-line="38" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -132,12 +126,23 @@
         <option value="$PROJECT_DIR$/DFA.py" />
         <option value="$PROJECT_DIR$/Transer.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/预测分析器/main.py" />
+        <option value="$PROJECT_DIR$/预测分析器/data_reader.py" />
+        <option value="$PROJECT_DIR$/Analysis_Tool/Analysis_Tool.py" />
+        <option value="$PROJECT_DIR$/Analysis_Tool/Grammar.py" />
+        <option value="$PROJECT_DIR$/Predictive_parser/Predictive_parse_table.py" />
+        <option value="$PROJECT_DIR$/Predictive_parser/Predictive_parser.py" />
+        <option value="$PROJECT_DIR$/Predictive_parser/Predictive_Parse_Table.py" />
+        <option value="$PROJECT_DIR$/Predictive_parser/datain.txt" />
+        <option value="$PROJECT_DIR$/Predictive_parser/datain2.txt" />
+        <option value="$PROJECT_DIR$/Predictive_parser/Grammar.py" />
+        <option value="$PROJECT_DIR$/Predictive_parser/Predictive_Parser.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -154,6 +159,22 @@
               <item name="Python_Programming" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python_Programming" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Python_Programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_Programming" type="462c0819:PsiDirectoryNode" />
+              <item name="CompilerPrinciple" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python_Programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_Programming" type="462c0819:PsiDirectoryNode" />
+              <item name="CompilerPrinciple" type="462c0819:PsiDirectoryNode" />
+              <item name="AnalysisTable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python_Programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_Programming" type="462c0819:PsiDirectoryNode" />
+              <item name="Predictive_parser" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -163,6 +184,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/ZGC_T/PycharmProjects/Python_Programming/datain.txt" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ZGC_T\PycharmProjects\Python_Programming\Predictive_parser" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ZGC_T\PycharmProjects\Python_Programming" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -176,7 +205,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main (1)">
+  <component name="RunManager" selected="Python.Predictive_Parser">
     <configuration name="DFA" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_Programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -190,6 +219,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DFA.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Grammar" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_Programming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Predictive_parser" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Predictive_parser/Grammar.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -219,7 +269,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="NFA_To_DFA" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Predictive_Parser" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_Programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -227,32 +277,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Predictive_parser" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\ZGC_T\PycharmProjects\Python_Programming\NFA.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Transer" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_Programming" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\ZGC_T\PycharmProjects\Python_Programming\main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Predictive_parser/Predictive_Parser.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -283,19 +312,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.NFA_To_DFA" />
       <item itemvalue="Python.NFA" />
-      <item itemvalue="Python.Transer" />
       <item itemvalue="Python.DFA" />
       <item itemvalue="Python.main (1)" />
+      <item itemvalue="Python.Grammar" />
+      <item itemvalue="Python.Predictive_Parser" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Predictive_Parser" />
+        <item itemvalue="Python.Grammar" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.DFA" />
         <item itemvalue="Python.NFA" />
-        <item itemvalue="Python.Transer" />
-        <item itemvalue="Python.NFA_To_DFA" />
       </list>
     </recent_temporary>
   </component>
@@ -314,14 +343,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18603411" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1881663" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3843648" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3213898" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -353,6 +381,13 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/transer.py" />
     <entry file="file://$PROJECT_DIR$/1.py" />
+    <entry file="file://$PROJECT_DIR$/NFA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2527">
+          <caret line="133" column="4" selection-start-line="133" selection-start-column="4" selection-end-line="137" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/datain.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -362,31 +397,132 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DFA.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-174">
+        <state relative-caret-position="19">
           <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <marker date="1537429057574" expanded="true" signature="656:1099" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NFA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="133" column="4" selection-start-line="133" selection-start-column="4" selection-end-line="137" selection-end-column="13" />
-          <folding>
-            <marker date="1537428178327" expanded="true" signature="271:276" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
+        <state relative-caret-position="380">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CompilerPrinciple/AnalysisTable/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CompilerPrinciple/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Predictive_parser/main.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Predictive_parser/Predictive_Parse_Table.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CompilerPrinciple/AnalysisTable/main.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Predictive_parser/datain.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CompilerPrinciple/AnalysisTable/structure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="54" column="10" lean-forward="true" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NFA_to_DFA/NFA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="81" column="13" lean-forward="true" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automata-from-regex-master/graphs/graph_DFA.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automata-from-regex-master/graphs/graph_minDFA.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automata-from-regex-master/graphs/graph_NFA.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automata-from-regex-master/AutomataTheory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1691">
+          <caret line="42" column="57" lean-forward="true" selection-start-line="42" selection-start-column="57" selection-end-line="42" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automata-from-regex-master/screenshots/screenshot_NFA.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automata-from-regex-master/screenshots/screenshot_DFA.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automata-from-regex-master/screenshots/screenshot_mainWindow.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automata-from-regex-master/screenshots/screenshot_minDFA.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automata-from-regex-master/gui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3572" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NFA_to_DFA/DFA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1288" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NFA_to_DFA/main.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CompilerPrinciple/AnalysisTable/SelectSet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="28" selection-start-line="28" selection-end-line="38" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Predictive_parser/datain2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Predictive_parser/Grammar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="84" column="25" lean-forward="true" selection-start-line="84" selection-start-column="25" selection-end-line="84" selection-end-column="25" />
           <folding>
-            <element signature="e#246#263#0" expanded="true" />
-            <marker date="1537990827524" expanded="true" signature="318:501" ph="..." />
+            <marker date="1539173517747" expanded="true" signature="14:19" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Predictive_parser/Predictive_Parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="40" column="39" lean-forward="true" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+          <folding>
+            <marker date="1539173562409" expanded="true" signature="53:58" ph="..." />
+            <marker date="1539173562409" expanded="true" signature="648:653" ph="..." />
+            <marker date="1539173562409" expanded="true" signature="1388:1389" ph="..." />
+            <marker date="1539173562409" expanded="true" signature="1400:1509" ph="..." />
           </folding>
         </state>
       </provider>
