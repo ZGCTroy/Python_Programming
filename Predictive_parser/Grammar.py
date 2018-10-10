@@ -18,47 +18,11 @@ class Grammar:
         print("\n文法的规则集为:")
         for i in self.P:
             for j in self.P[i]:
-                print(i,' -> ',end=' ')
+                print(i,'-> ',end='')
                 for k in j:
-                    print(k,end=' ')
+                    print(k,end='')
                 print()
         print()
-
-    def read_from_keyboard(self):
-        print("请输入文法的开始符,一行一个，以#结束:")
-        while True:
-            str = input().strip()
-            if str == "#":
-                break
-            self.start_symbols.add(str)
-
-        print("请输入文法的终结符集,一行一个，以#结束:")
-        while True:
-            str = input().strip()
-            if str == "#":
-                break
-            self.terminals.add(str)
-
-        print("请输入文法的非终结符集,一行一个，以#结束:")
-        while True:
-            str = input().strip()
-            if str == "#":
-                break
-            self.nonterminals.add(str)
-
-        print("请输入文法.(如:'S->AB').最后文法以'#'结束.")
-        while True:
-            str = input().strip()
-            if str == "#":
-                break
-            left, right = str.split("->")
-            left = left.strip()
-            right = tuple(right.strip().split(" "))
-            if left in self.P.keys():
-                self.P[left].add(right)
-            else:
-                self.P[left] = set()
-                self.P[left].add(right)
 
     def read_from_file(self,filepath):
         with open(filepath,'r',encoding='utf-8') as f:
@@ -87,7 +51,6 @@ class Grammar:
                     break
                 left, right = str.split("->")
                 left = left.strip()
-                right = tuple(right.strip().split(" "))
                 if left in self.P.keys():
                     self.P[left].add(right)
                 else:
@@ -96,8 +59,7 @@ class Grammar:
 
 def main():
     G = Grammar()
-    #G.read_from_keyboard()
-    G.read_from_file("./datain.txt")
+    G.read_from_file("./datain3.txt")
     G.print_grammar()
 
 if __name__ == '__main__':

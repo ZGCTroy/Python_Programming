@@ -4,28 +4,16 @@ class Predictive_Parser:
     def __init__(self,grammar=Grammar()):
         self.grammar = grammar
         self.predictive_parse_table = {}
-        self.epsilonable = set()
+        self.First = {}
+        self.Follow = {}
 
-    def first(str, firstset=[]):
-        t = str[0]
-        if t == '&':
-            firstset.append('&')
-        elif t >= 'A' and t <= 'Z':
-            for s in G[t]:
-                tempset = first(s, firstset=[])
-                firstset.extend(tempset)
-                if '&' in tempset and len(str) > 1:
-                    firstset.extend(first(str[1:], firstset))
-        else:
-            firstset.append(t)
-        return set(firstset)
 
     def get_first(self,str):
+        if str in self.First.keys():
+            return self.First[str]
         First = set()
-        print(str,":")
         for i in str:
-            print(i)
-            if i == 'epsilon':
+            if i == '@':
                 First.add(i)
                 return First
 
@@ -34,29 +22,70 @@ class Predictive_Parser:
                 break
 
             if i not in self.grammar.nonterminals:
-                print('sb')
+                print('sb',i)
                 break
 
             NextFirst = set()
             for j in self.grammar.P[i]:
                 NextFirst = NextFirst | self.get_first(j)
 
-            First = First | NextFirst
-            if 'epsilon' not in NextFirst:
+            First = (First - {'@'}) | NextFirst
+            if '@' not in NextFirst:
                 break
+        self.First[str]=First
         return First
 
+    def get_follow(self,VN):
+        if VN not in self.Follow:
+            self.Follow[VN] = set()
+        else:
+            return self.Follow[VN]-{'@'}
+
+        if VN in self.grammar.start_symbols:
+            self.Follow[VN].add('#')
+
+        for nonterminal in self.grammar.nonterminals:
+            for str in self.grammar.P[nonterminal]:
+                VNpos = str.find(VN)
+
+                if VNpos != -1:
+                    if VNpos == len(str)-1:
+                        self.Follow[VN] |= self.get_follow(nonterminal)
+                    else:
+                        nextstr=str[VNpos+1::]
+                        NextFirst = self.get_first(nextstr)
+                        self.Follow[VN] |= NextFirst
+                        if '@' in NextFirst:
+                            self.Follow[VN] |= self.get_follow(nonterminal)
+
+        return self.Follow[VN]-{'@'}
+
     def judgeLL1(self):
-        t = ('<bexpr>',)
-        self.get_first(str=t)
+        print('First集如下')
+        for nonterminal in self.grammar.nonterminals:
+            print(
+                'First({})  :   {}'.format(
+                    nonterminal,self.get_first(nonterminal)
+                )
+            )
+        print('\nFollow集如下')
+        for nonterminal in self.grammar.nonterminals:
+            print(
+                'Follow({})  :   {}'.format(
+                    nonterminal,self.get_follow(nonterminal)
+                )
+            )
+
+
+
+
 
 
 def main():
     G = Grammar()
-    G.read_from_file("./datain.txt")
+    G.read_from_file("./datain3.txt")
     predictive_parser = Predictive_Parser(grammar=G)
     predictive_parser.grammar.print_grammar()
-    t = (1,2)
-    #predictive_parser.judgeLL1()
+    predictive_parser.judgeLL1()
 if __name__ == '__main__':
     main()
