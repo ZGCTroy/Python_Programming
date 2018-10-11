@@ -9,8 +9,8 @@ class Predictive_Parser:
         self.First = {}
         self.Follow = {}
         self.Select = {}
-        self.Table = {}
-        self.pdTable = pd.DataFrame()
+        self.Table = pd.DataFrame()
+        self.terminals = []
 
     def get_first(self, str):
         if str in self.First.keys():
@@ -104,64 +104,46 @@ class Predictive_Parser:
                 print('Select({}->{}) = {}'.format(nonterminal, right, self.get_select(nonterminal, right)))
         print()
 
-    def init_table(self):
-        for nonterminal in self.grammar.nonterminals:
-            self.Table[nonterminal] = {}
-            for terminal in self.grammar.terminals:
-                self.Table[nonterminal][terminal] = set()
-            self.Table[nonterminal]['@'] = set()
-            self.Table[nonterminal]['#'] = set()
-
-    def get_table(self):
-        self.init_table()
-        self.print_table()
+    def cal_table(self):
+        self.terminals = self.grammar.terminals
+        self.terminals.append('@')
+        self.terminals.sort()
+        table = []
 
         for nonterminal in self.grammar.nonterminals:
-            if nonterminal in self.Select:
+            row = {}
+            for terminal in self.terminals:
+                row[terminal] = ""
                 for right in self.Select[nonterminal]:
-                    print(nonterminal, '->', right, self.Select[nonterminal][right])
-                    for terminal in self.Select[nonterminal][right]:
-                        self.Table[nonterminal][terminal] = str(nonterminal + '->' + right)
+                    if terminal in self.Select[nonterminal][right]:
+                        row[terminal] = nonterminal + '->' + right
+                        break
+            table.append(row)
 
-        self.print_table()
+        table = pd.DataFrame(data=table, index=self.grammar.nonterminals, columns=self.terminals)
+        self.Table = table
+        print('预测分析表如下：\n')
+        print(self.Table)
 
-    def print_table(self):
-        print('\n', end='       ')
-        for terminal in self.grammar.terminals:
-            print(terminal, end='       ')
-        print('@')
-        for nonterminal in self.Table:
-            print(nonterminal, end='    ')
-            for terminal in self.Table[nonterminal]:
-                if self.Table[nonterminal][terminal] == set():
-                    print(end='         ')
-                else:
-                    print(self.Table[nonterminal][terminal], end='   ')
-            print()
-        print()
-        print()
 
 
 def main():
+    # TODO 1 : 从文件读入文法,要求此文法不包含左递归
     G = Grammar()
     G.read_from_file("./datain3.txt")
+
+    # TODO 2 : 构建语法分析预测器,导入文法，并打印文法
     predictive_parser = Predictive_Parser(grammar=G)
     predictive_parser.grammar.print_grammar()
-    predictive_parser.judgeLL1()
-    predictive_parser.get_table()
 
+    # TODO 3 ： 分别求出First、Follow、Select集，并判断文法是否属于LL1文法
+    predictive_parser.judgeLL1()
+
+    # TODO 4 ： 构建语法分析预测表并打印
+    predictive_parser.cal_table()
+
+    # TODO 5 ： 输入字符串进行语法分析预测
 
 
 if __name__ == '__main__':
-    #main()
-    Table = pd.DataFrame(
-        np.zeros((2,2)),
-        index=['S','A'],
-        columns=['s','a']
-    )
-    print(Table)
-    print(Table['s']['A'])
-
-
-
-    ....................................
+    main()

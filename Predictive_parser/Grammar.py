@@ -57,6 +57,13 @@ class Grammar:
                     self.P[left] = set()
                     self.P[left].add(right)
         self.terminals.add('#')
+        self.terminals = list(self.terminals)
+        self.nonterminals = list(self.nonterminals)
+        self.start_symbols = list(self.start_symbols)
+        self.terminals.sort()
+        self.nonterminals.sort()
+        self.start_symbols.sort()
+
 
 def main():
     G = Grammar()

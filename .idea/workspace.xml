@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0539ba8-e045-4fa9-9ced-db452ab939d9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Predictive_parser/Grammar.py" beforeDir="false" afterPath="$PROJECT_DIR$/Predictive_parser/Grammar.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Predictive_parser/Predictive_Parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/Predictive_parser/Predictive_Parser.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,14 +39,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="85" />
-          <entry key="py" value="9433" />
+          <entry key="py" value="10754" />
           <entry key="txt" value="643" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="728" />
-          <entry key="Python" value="9433" />
+          <entry key="Python" value="10754" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -57,10 +57,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Predictive_parser/Grammar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+            <state relative-caret-position="1330">
+              <caret line="70" column="4" lean-forward="true" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
               <folding>
-                <marker date="1539230250059" expanded="true" signature="14:19" ph="..." />
+                <marker date="1539242936710" expanded="true" signature="14:19" ph="..." />
               </folding>
             </state>
           </provider>
@@ -78,11 +78,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Predictive_parser/Predictive_Parser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="156" column="22" selection-start-line="156" selection-start-column="22" selection-end-line="156" selection-end-column="22" />
+            <state relative-caret-position="112">
+              <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
-                <marker date="1539233021657" expanded="true" signature="3222:3231" ph="..." />
               </folding>
             </state>
           </provider>
@@ -119,6 +118,7 @@
     <findStrings>
       <find>}</find>
       <find>epsil</find>
+      <find>add</find>
     </findStrings>
     <replaceStrings>
       <replace>)</replace>
@@ -485,16 +485,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Predictive_parser/Grammar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-          <folding>
-            <marker date="1539230250059" expanded="true" signature="14:19" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CompilerPrinciple/AnalysisTable/SelectSet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="928">
@@ -502,13 +492,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Predictive_parser/Grammar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1330">
+          <caret line="70" column="4" lean-forward="true" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
+          <folding>
+            <marker date="1539242936710" expanded="true" signature="14:19" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Predictive_parser/Predictive_Parser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="156" column="22" selection-start-line="156" selection-start-column="22" selection-end-line="156" selection-end-column="22" />
+        <state relative-caret-position="112">
+          <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
-            <marker date="1539233021657" expanded="true" signature="3222:3231" ph="..." />
           </folding>
         </state>
       </provider>
