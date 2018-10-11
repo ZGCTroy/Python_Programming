@@ -60,21 +60,37 @@ class Predictive_Parser:
 
         return self.Follow[VN]-{'@'}
 
+    def get_select(self,left,right):
+        Select = set()
+        RightFirst = self.get_first(right)
+        if '@' in RightFirst:
+            Select = RightFirst | self.get_follow(left)
+        else:
+            Select = RightFirst
+        return Select
+
     def judgeLL1(self):
-        print('First集如下')
+        print('First集如下:')
         for nonterminal in self.grammar.nonterminals:
             print(
-                'First({})  :   {}'.format(
+                'First({}) = {}'.format(
                     nonterminal,self.get_first(nonterminal)
                 )
             )
-        print('\nFollow集如下')
+        print('\nFollow集如下:')
         for nonterminal in self.grammar.nonterminals:
             print(
-                'Follow({})  :   {}'.format(
+                'Follow({}) = {}'.format(
                     nonterminal,self.get_follow(nonterminal)
                 )
             )
+
+        print('\nSelect集如下:')
+        for nonterminal in self.grammar.P:
+            for j in self.grammar.P[nonterminal]:
+                print('Select({}->{}) = {}'.format(nonterminal,j,self.get_select(nonterminal,j)))
+
+        self.select()
 
 
 

@@ -16,9 +16,9 @@ class Grammar:
         for i in self.nonterminals:
             print(i)
         print("\n文法的规则集为:")
-        for i in self.P:
-            for j in self.P[i]:
-                print(i,'-> ',end='')
+        for nonterminal in self.P:
+            for j in self.P[nonterminal]:
+                print(nonterminal,'-> ',end='')
                 for k in j:
                     print(k,end='')
                 print()
