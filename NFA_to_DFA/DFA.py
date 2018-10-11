@@ -81,7 +81,7 @@ class DFA:
 
 def main():
     D = DFA()
-    D.read_from_file("./datain.txt")
+    D.read_from_file("./data4.9_origin.txt")
     D.print()
     D.minimize()
 

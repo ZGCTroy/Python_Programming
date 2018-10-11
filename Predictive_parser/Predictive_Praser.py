@@ -1,3 +1,13 @@
+'''
+@author: ZGC
+@license: (C) Copyright 2013-2018, Node Supply Chain Manager Corporation Limited.
+@contact: zgc_troy@163.com
+@github:  https://github.com/ZGCTroy
+@file: Predictive_Praser.py
+@time: 2018/10/11 17:29
+@desc:
+'''
+
 from Grammar import Grammar
 import pandas as pd
 import numpy as np
@@ -13,6 +23,11 @@ class Predictive_Parser:
         self.terminals = []
 
     def get_first(self, str):
+        """
+        计算str的First集
+        :param str: 要计算First集的字符串
+        :return: First(str),type=set()
+        """
         if str in self.First.keys():
             return self.First[str]
         First = set()
@@ -40,6 +55,11 @@ class Predictive_Parser:
         return First
 
     def get_follow(self, VN):
+        """
+        计算非终结符VN的Follow集
+        :param VN: 非终结符
+        :return: Follow(VN),type=set()
+        """
         if VN not in self.Follow:
             self.Follow[VN] = set()
         else:
@@ -65,6 +85,12 @@ class Predictive_Parser:
         return self.Follow[VN] - {'@'}
 
     def get_select(self, left, right):
+        """
+        计算规则P的Select集合
+        :param left: 规则P的左部
+        :param right: 规则P的右部
+        :return: Select(left->right),type=set()
+        """
         if left in self.Select:
             if right in self.Select[left]:
                 return self.Select[left][right]
@@ -76,13 +102,16 @@ class Predictive_Parser:
         RightFirst = self.get_first(right)
 
         if '@' in RightFirst:
-            self.Select[left][right] = RightFirst | self.get_follow(left)
+            self.Select[left][right] = (RightFirst - {'@'}) | self.get_follow(left)
         else:
             self.Select[left][right] = RightFirst
 
         return self.Select[left][right]
 
     def judgeLL1(self):
+        """
+            判断文法G是否为LL(1)文法
+        """
         print('First集如下:')
         for nonterminal in self.grammar.nonterminals:
             print(
@@ -105,6 +134,9 @@ class Predictive_Parser:
         print()
 
     def cal_table(self):
+        """
+            构造文法G的预测分析表Table
+        """
         self.terminals = self.grammar.terminals
         self.terminals.append('@')
         self.terminals.sort()
@@ -124,13 +156,52 @@ class Predictive_Parser:
         self.Table = table
         print('预测分析表如下：\n')
         print(self.Table)
+        print()
+        print()
 
+    def judge(self, str):
+        """
+        判断输入串的分析过程
+        :param str: 要代入预测分析器进行语法分析预测的字符串
+        :return:
+        """
+        curstack = ['#']
+        curstack.extend(self.grammar.start_symbols)
+        leftstack = list(str)
+        data = []
+        while len(curstack):
+            row = {'curstack': ''.join(curstack), 'curchar': leftstack[0], 'leftstack': ''.join(leftstack), 'P': ''}
+            if curstack[-1] == leftstack[0]:
+                curstack.pop(-1)
+                leftstack.pop(0)
+            else:
+                str = self.Table[leftstack[0]][curstack[-1]]
+                if (curstack[-1] not in self.grammar.nonterminals) or str=="":
+                    data.append(row)
+                    data = pd.DataFrame(data=data, columns=['curstack', 'curchar', 'leftstack', 'P'])
+                    print('匹配过程如下：\n')
+                    print(data)
+                    print('\n匹配失败')
+                    return
+                curstack.pop(-1)
+                row['P']=str
+                str = str.split('->')[1]
+                if str != '@':
+                    str = list(str)
+                    str.reverse()
+                    curstack.extend(str)
+
+            data.append(row)
+
+        data = pd.DataFrame(data=data,columns=['curstack','curchar','leftstack','P'])
+        print(data)
+        print('匹配成功')
 
 
 def main():
     # TODO 1 : 从文件读入文法,要求此文法不包含左递归
     G = Grammar()
-    G.read_from_file("./datain3.txt")
+    G.read_from_file("./data4.1_origin.txt")
 
     # TODO 2 : 构建语法分析预测器,导入文法，并打印文法
     predictive_parser = Predictive_Parser(grammar=G)
@@ -141,9 +212,10 @@ def main():
 
     # TODO 4 ： 构建语法分析预测表并打印
     predictive_parser.cal_table()
-
     # TODO 5 ： 输入字符串进行语法分析预测
+    predictive_parser.judge('(a,a)#')
 
 
 if __name__ == '__main__':
     main()
+

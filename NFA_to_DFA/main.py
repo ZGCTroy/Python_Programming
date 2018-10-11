@@ -18,7 +18,7 @@ from NFA import *
 def main():
     # TODO 1 : 输入NFA
     N = NFA()
-    N.read_from_file(filepath="./datain.txt")
+    N.read_from_file(filepath="./data4.9_origin.txt")
 
     # TODO 2 : 输出NFA
     N.print()

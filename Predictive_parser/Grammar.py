@@ -1,3 +1,13 @@
+'''
+@author: ZGC
+@license: (C) Copyright 2013-2018, Node Supply Chain Manager Corporation Limited.
+@contact: zgc_troy@163.com
+@github:  https://github.com/ZGCTroy
+@file: Grammar.py
+@time: 2018/10/11 17:30
+@desc:
+'''
+
 class Grammar:
     def __init__(self,alphabet=set(),start_symbols=set(),terminals=set(),nonterminals=set()):
         self.start_symbols = start_symbols
@@ -67,7 +77,7 @@ class Grammar:
 
 def main():
     G = Grammar()
-    G.read_from_file("./datain3.txt")
+    G.read_from_file("./data4.9_v2.txt")
     G.print_grammar()
 
 if __name__ == '__main__':

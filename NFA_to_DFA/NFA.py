@@ -132,7 +132,7 @@ class NFA:
 
 def main():
     N = NFA()
-    N.read_from_file(filepath="./datain.txt")
+    N.read_from_file(filepath="./data4.9_origin.txt")
     N.print()
     D = N.determine()
     D.print()
