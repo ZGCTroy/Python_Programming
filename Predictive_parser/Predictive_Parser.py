@@ -110,12 +110,15 @@ class Predictive_Parser:
         #     self.Table[nonterminal]['@']=set()
 
         self.pdTable = pd.DataFrame(
-            np.array(len(self.grammar.nonterminals,self.grammar.terminals+2)),
+            np.empty(
+                shape=(len(self.grammar.nonterminals),len(self.grammar.terminals)+2),
+                dtype=str
+            ),
             index=list(self.grammar.nonterminals),
-            columns=list(self.grammar.terminals).append('@','#')
+            columns=list(self.grammar.terminals)+['@','#']
         )
         print(self.pdTable)
-
+        print(self.pdTable[0])
 
 
     def get_table(self):
