@@ -1,12 +1,14 @@
 from Grammar import Grammar
-
+import pandas as pd
+import numpy as np
 class Predictive_Parser:
     def __init__(self,grammar=Grammar()):
         self.grammar = grammar
-        self.predictive_parse_table = {}
         self.First = {}
         self.Follow = {}
-
+        self.Select = {}
+        self.Table = {}
+        self.pdTable = pd.DataFrame()
 
     def get_first(self,str):
         if str in self.First.keys():
@@ -61,13 +63,22 @@ class Predictive_Parser:
         return self.Follow[VN]-{'@'}
 
     def get_select(self,left,right):
-        Select = set()
-        RightFirst = self.get_first(right)
-        if '@' in RightFirst:
-            Select = RightFirst | self.get_follow(left)
+        if left in self.Select:
+            if right in self.Select[left]:
+                return self.Select[left][right]
+            else:
+                self.Select[left][right]=set()
         else:
-            Select = RightFirst
-        return Select
+            self.Select[left]={}
+
+        RightFirst = self.get_first(right)
+
+        if '@' in RightFirst:
+            self.Select[left][right] = RightFirst | self.get_follow(left)
+        else:
+            self.Select[left][right] = RightFirst
+
+        return self.Select[left][right]
 
     def judgeLL1(self):
         print('First集如下:')
@@ -87,14 +98,57 @@ class Predictive_Parser:
 
         print('\nSelect集如下:')
         for nonterminal in self.grammar.P:
-            for j in self.grammar.P[nonterminal]:
-                print('Select({}->{}) = {}'.format(nonterminal,j,self.get_select(nonterminal,j)))
+            for right in self.grammar.P[nonterminal]:
+                print('Select({}->{}) = {}'.format(nonterminal,right,self.get_select(nonterminal,right)))
+        print('\n')
 
-        self.select()
+    def init_table(self):
+        # for nonterminal in self.grammar.nonterminals:
+        #     self.Table[nonterminal]={}
+        #     for terminal in self.grammar.terminals:
+        #         self.Table[nonterminal][terminal]=set()
+        #     self.Table[nonterminal]['@']=set()
+
+        self.pdTable = pd.DataFrame(
+            np.array(len(self.grammar.nonterminals,self.grammar.terminals+2)),
+            index=list(self.grammar.nonterminals),
+            columns=list(self.grammar.terminals).append('@','#')
+        )
+        print(self.pdTable)
 
 
 
+    def get_table(self):
+        self.init_table()
+        self.print_table()
 
+        for nonterminal in self.grammar.nonterminals:
+            if nonterminal in self.Select:
+                for right in self.Select[nonterminal]:
+                    print(nonterminal,'->',right,self.Select[nonterminal][right])
+                    for terminal in self.Select[nonterminal][right]:
+                        self.Table[nonterminal][terminal]=str(nonterminal+'->'+right)
+
+        self.print_table()
+
+
+    def print_table(self):
+        print(end='       ')
+        for terminal in self.grammar.terminals:
+            print(terminal,end='       ')
+        print('@', end='       ')
+        print()
+        for nonterminal in self.Table:
+            print(nonterminal,end='    ')
+            for terminal in self.Table[nonterminal]:
+                print(self.Table[nonterminal][terminal],end='   ')
+            print()
+        print()
+        print()
+
+    def p(self):
+        mypd = pd.DataFrame(data=self.Table,index=['S','A','B','C','D'],columns=['sb','n','(',')','o','#','@','a','t','f'])
+        print(mypd)
 
 
 def main():
@@ -102,6 +156,8 @@ def main():
     G.read_from_file("./datain3.txt")
     predictive_parser = Predictive_Parser(grammar=G)
     predictive_parser.grammar.print_grammar()
-    predictive_parser.judgeLL1()
+    #predictive_parser.judgeLL1()
+    #predictive_parser.get_table()
+    predictive_parser.init_table()
 if __name__ == '__main__':
     main()

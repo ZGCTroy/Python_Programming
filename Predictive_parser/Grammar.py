@@ -56,6 +56,7 @@ class Grammar:
                 else:
                     self.P[left] = set()
                     self.P[left].add(right)
+        self.terminals.add('#')
 
 def main():
     G = Grammar()
