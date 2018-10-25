@@ -176,7 +176,7 @@ class OperatorPrecedenceAnalysis:
                 print(data)
                 print('匹配失败')
                 return
-            print(row)
+
             data.append(row)
 
         data = pd.DataFrame(
@@ -190,11 +190,8 @@ class OperatorPrecedenceAnalysis:
                 '移进或归约'
             ]
         )
-        print(data.to_html())
+        print(data)
         print('匹配成功')
-
-
-
 
 
 

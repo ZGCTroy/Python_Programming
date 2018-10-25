@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0539ba8-e045-4fa9-9ced-db452ab939d9" name="Default Changelist" comment="Default Changelist">
-      <change beforePath="$PROJECT_DIR$/Predictive_parser/Predictive_Praser.py" beforeDir="false" afterPath="$PROJECT_DIR$/Predictive_parser/Predictive_Praser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Predictive_parser/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Predictive_parser/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple_Analysis/Simple_Analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Simple_Analysis/Simple_Analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple_Analysis/.ipynb_checkpoints/Analysis-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Operator_Analysis/.ipynb_checkpoints/Analysis-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple_Analysis/Analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Operator_Analysis/Operator_Analysis.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple_Analysis/Grammar.py" beforeDir="false" afterPath="$PROJECT_DIR$/Operator_Analysis/Grammar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple_Analysis/Simple_Analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Operator_Analysis/Operator_Analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple_Analysis/data5.3_origin.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Operator_Analysis/data5.3_origin.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,31 +58,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Predictive_parser/main.py">
+      <file leaf-file-name="Operator_Analysis.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Operator_Analysis/Operator_Analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+            <state relative-caret-position="2685">
+              <caret line="179" column="20" selection-start-line="179" selection-start-column="20" selection-end-line="179" selection-end-column="20" />
               <folding>
-                <element signature="e#215#262#0" expanded="true" />
+                <element signature="e#0#27#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Simple_Analysis.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Simple_Analysis/Simple_Analysis.py">
+      <file leaf-file-name="Grammar.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Operator_Analysis/Grammar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="189" column="23" selection-start-line="189" selection-start-column="23" selection-end-line="189" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#27#0" expanded="true" />
-                <element signature="e#153#640#0" />
-                <element signature="e#690#1023#0" />
-                <element signature="e#992#2036#0" />
-                <element signature="e#2160#3204#0" />
-                <element signature="e#3251#5101#0" />
-              </folding>
+            <state relative-caret-position="-607">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Operator_Analysis.ipynb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Operator_Analysis/Operator_Analysis.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="1" />
             </state>
           </provider>
         </entry>
@@ -139,6 +142,7 @@
         <option value="$PROJECT_DIR$/Predictive_parser/main.py" />
         <option value="$PROJECT_DIR$/Predictive_parser/Predictive_Praser.py" />
         <option value="$PROJECT_DIR$/Simple_Analysis/Simple_Analysis.py" />
+        <option value="$PROJECT_DIR$/Operator_Analysis/Operator_Analysis.py" />
       </list>
     </option>
   </component>
@@ -162,12 +166,7 @@
             <path>
               <item name="Python_Programming" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python_Programming" type="462c0819:PsiDirectoryNode" />
-              <item name="Predictive_parser" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python_Programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python_Programming" type="462c0819:PsiDirectoryNode" />
-              <item name="Simple_Analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="Operator_Analysis" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -202,7 +201,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Simple_Analysis">
+  <component name="RunManager" selected="Python.Operator_Analysis">
     <configuration name="Grammar" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_Programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -216,6 +215,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Predictive_parser/Grammar.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Operator_Analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_Programming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Operator_Analysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Operator_Analysis/Operator_Analysis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -275,38 +292,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_Programming" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
       <item itemvalue="Python.main" />
       <item itemvalue="Python.Predictive_Praser" />
-      <item itemvalue="Python.test" />
       <item itemvalue="Python.Simple_Analysis" />
       <item itemvalue="Python.Grammar" />
+      <item itemvalue="Python.Operator_Analysis" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Operator_Analysis" />
         <item itemvalue="Python.Simple_Analysis" />
         <item itemvalue="Python.Predictive_Praser" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.Grammar" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -336,11 +335,11 @@
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.19553903" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.19553903" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32756132" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5036075" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20634921" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32899022" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32756132" />
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
@@ -497,17 +496,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py" />
-    <entry file="file://$PROJECT_DIR$/Simple_Analysis/data5.3_origin.txt">
+    <entry file="file://$PROJECT_DIR$/Operator_Analysis/data5.3_origin.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Simple_Analysis/Grammar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="73" column="32" lean-forward="true" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -515,16 +507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
           <caret line="82" column="24" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Predictive_parser/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-          <folding>
-            <element signature="e#215#262#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -551,18 +533,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Simple_Analysis/Simple_Analysis.py">
+    <entry file="file://$PROJECT_DIR$/Predictive_parser/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="189" column="23" selection-start-line="189" selection-start-column="23" selection-end-line="189" selection-end-column="23" />
+        <state relative-caret-position="300">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+          <folding>
+            <element signature="e#215#262#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Operator_Analysis/Grammar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-607">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Operator_Analysis/Operator_Analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2685">
+          <caret line="179" column="20" selection-start-line="179" selection-start-column="20" selection-end-line="179" selection-end-column="20" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
-            <element signature="e#153#640#0" />
-            <element signature="e#690#1023#0" />
-            <element signature="e#992#2036#0" />
-            <element signature="e#2160#3204#0" />
-            <element signature="e#3251#5101#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Operator_Analysis/Operator_Analysis.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
         </state>
       </provider>
     </entry>
