@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0539ba8-e045-4fa9-9ced-db452ab939d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Simple_Analysis/Grammar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple_Analysis/Simple_Analysis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple_Analysis/data5.3_origin.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d0539ba8-e045-4fa9-9ced-db452ab939d9" name="Default Changelist" comment="Default Changelist">
       <change beforePath="$PROJECT_DIR$/Predictive_parser/Predictive_Praser.py" beforeDir="false" afterPath="$PROJECT_DIR$/Predictive_parser/Predictive_Praser.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Predictive_parser/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Predictive_parser/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple_Analysis/Simple_Analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Simple_Analysis/Simple_Analysis.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -62,8 +59,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Predictive_parser/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="17" selection-end-column="44" />
+            <state relative-caret-position="300">
+              <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
               <folding>
                 <element signature="e#215#262#0" expanded="true" />
               </folding>
@@ -71,43 +68,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Predictive_Praser.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Predictive_parser/Predictive_Praser.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-656">
-              <caret line="156" column="27" lean-forward="true" selection-start-line="156" selection-start-column="27" selection-end-line="156" selection-end-column="27" />
-              <folding>
-                <element signature="e#227#254#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Grammar.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Simple_Analysis/Grammar.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="73" column="32" lean-forward="true" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data5.3_origin.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Simple_Analysis/data5.3_origin.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Simple_Analysis.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Simple_Analysis/Simple_Analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+            <state relative-caret-position="186">
+              <caret line="189" column="23" selection-start-line="189" selection-start-column="23" selection-end-line="189" selection-end-column="23" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
+                <element signature="e#153#640#0" />
+                <element signature="e#690#1023#0" />
+                <element signature="e#992#2036#0" />
+                <element signature="e#2160#3204#0" />
+                <element signature="e#3251#5101#0" />
               </folding>
             </state>
           </provider>
@@ -159,13 +131,13 @@
         <option value="$PROJECT_DIR$/Predictive_parser/datain4.txt" />
         <option value="$PROJECT_DIR$/Predictive_parser/Predictive_Parser.py" />
         <option value="$PROJECT_DIR$/Predictive_parser/132.py" />
-        <option value="$PROJECT_DIR$/Predictive_parser/main.py" />
         <option value="$PROJECT_DIR$/Predictive_parser/Grammar.py" />
-        <option value="$PROJECT_DIR$/Predictive_parser/Predictive_Praser.py" />
         <option value="$PROJECT_DIR$/Predictive_parser/data4.1_origin.txt" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/Simple_Analysis/data5.3_origin.txt" />
         <option value="$PROJECT_DIR$/Simple_Analysis/Grammar.py" />
+        <option value="$PROJECT_DIR$/Predictive_parser/main.py" />
+        <option value="$PROJECT_DIR$/Predictive_parser/Predictive_Praser.py" />
         <option value="$PROJECT_DIR$/Simple_Analysis/Simple_Analysis.py" />
       </list>
     </option>
@@ -231,7 +203,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.Simple_Analysis">
-    <configuration name="Predictive_Parser" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Grammar" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_Programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -243,7 +215,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Predictive_parser/Predictive_Parser.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Predictive_parser/Grammar.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -322,19 +294,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.Predictive_Parser" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.Predictive_Praser" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.Simple_Analysis" />
+      <item itemvalue="Python.Grammar" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.Simple_Analysis" />
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.Predictive_Praser" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.Predictive_Parser" />
+        <item itemvalue="Python.Grammar" />
+        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -368,7 +340,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32756132" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3838384" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5036075" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32899022" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32756132" />
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
@@ -525,13 +497,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py" />
-    <entry file="file://$PROJECT_DIR$/Predictive_parser/Grammar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Simple_Analysis/data5.3_origin.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -546,10 +511,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Predictive_parser/Grammar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="82" column="24" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Predictive_parser/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="17" selection-end-column="44" />
+        <state relative-caret-position="300">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
           <folding>
             <element signature="e#215#262#0" expanded="true" />
           </folding>
@@ -558,20 +530,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Predictive_parser/Predictive_Praser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-656">
-          <caret line="156" column="27" lean-forward="true" selection-start-line="156" selection-start-column="27" selection-end-line="156" selection-end-column="27" />
+        <state relative-caret-position="92">
+          <caret line="172" column="24" selection-start-line="172" selection-start-column="24" selection-end-line="172" selection-end-column="24" />
           <folding>
             <element signature="e#227#254#0" expanded="true" />
+            <element signature="e#372#532#0" />
+            <element signature="e#572#1371#0" />
+            <element signature="e#1411#2370#0" />
+            <element signature="e#2419#3065#0" />
+            <element signature="e#3099#3868#0" />
+            <element signature="e#3903#4696#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pandas/core/indexes/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="3123" selection-start-line="3123" selection-end-line="3123" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Simple_Analysis/Simple_Analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+        <state relative-caret-position="186">
+          <caret line="189" column="23" selection-start-line="189" selection-start-column="23" selection-end-line="189" selection-end-column="23" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
+            <element signature="e#153#640#0" />
+            <element signature="e#690#1023#0" />
+            <element signature="e#992#2036#0" />
+            <element signature="e#2160#3204#0" />
+            <element signature="e#3251#5101#0" />
           </folding>
         </state>
       </provider>

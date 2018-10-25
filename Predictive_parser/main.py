@@ -15,7 +15,7 @@ from Grammar import Grammar
 def main():
     # TODO 1 : 从文件读入文法,要求此文法不包含左递归
     G = Grammar()
-    G.read_from_file("./data5.3_origin.txt")
+    G.read_from_file("./data4.1_origin.txt")
 
     # TODO 2 : 构建语法分析预测器,导入文法，并打印文法
     predictive_parser = Predictive_Parser(grammar=G)
