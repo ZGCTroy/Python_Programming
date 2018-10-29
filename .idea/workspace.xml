@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0539ba8-e045-4fa9-9ced-db452ab939d9" name="Default Changelist" comment="Default Changelist">
-      <change beforePath="$PROJECT_DIR$/Simple_Analysis/.ipynb_checkpoints/Analysis-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Operator_Analysis/.ipynb_checkpoints/Analysis-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple_Analysis/Analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Operator_Analysis/Operator_Analysis.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple_Analysis/Grammar.py" beforeDir="false" afterPath="$PROJECT_DIR$/Operator_Analysis/Grammar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple_Analysis/Simple_Analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Operator_Analysis/Operator_Analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple_Analysis/data5.3_origin.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Operator_Analysis/data5.3_origin.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Operator_Analysis/Operator_Analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Operator_Analysis/Operator_Analysis.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -70,16 +66,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Grammar.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Grammar.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Operator_Analysis/Grammar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-607">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="338">
+              <caret line="79" column="12" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Operator_Analysis.ipynb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Operator_Analysis.ipynb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Operator_Analysis/Operator_Analysis.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
@@ -143,6 +139,7 @@
         <option value="$PROJECT_DIR$/Predictive_parser/Predictive_Praser.py" />
         <option value="$PROJECT_DIR$/Simple_Analysis/Simple_Analysis.py" />
         <option value="$PROJECT_DIR$/Operator_Analysis/Operator_Analysis.py" />
+        <option value="$PROJECT_DIR$/Operator_Analysis/Operator_Analysis.ipynb" />
       </list>
     </option>
   </component>
@@ -543,13 +540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Operator_Analysis/Grammar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-607">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Operator_Analysis/Operator_Analysis.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2685">
@@ -563,7 +553,14 @@
     <entry file="file://$PROJECT_DIR$/Operator_Analysis/Operator_Analysis.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="0" />
+          <selected id="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Operator_Analysis/Grammar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="79" column="12" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="12" />
         </state>
       </provider>
     </entry>
