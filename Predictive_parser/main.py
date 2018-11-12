@@ -9,13 +9,12 @@
 '''
 
 
-from Predictive_Parser import Predictive_Parser
 from Grammar import Grammar
-
+from Predictive_Parser import *
 def main():
     # TODO 1 : 从文件读入文法,要求此文法不包含左递归
     G = Grammar()
-    G.read_from_file("./data4.1_origin.txt")
+    G.read_from_file("./experiment.txt")
 
     # TODO 2 : 构建语法分析预测器,导入文法，并打印文法
     predictive_parser = Predictive_Parser(grammar=G)
@@ -27,8 +26,8 @@ def main():
     # TODO 4 ： 构建语法分析预测表并打印
     predictive_parser.cal_table()
     # TODO 5 ： 输入字符串进行语法分析预测
-    predictive_parser.judge('(a,a)#')
-
-
+    #predictive_parser.judge('eadeaa#')
+    #predictive_parser.judge('edeaebd#')
+    predictive_parser.judge('edeaeaadabacae#')
 if __name__ == '__main__':
     main()

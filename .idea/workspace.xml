@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0539ba8-e045-4fa9-9ced-db452ab939d9" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/Scanner/Scanner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scanner/input.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Predictive_parser/experiment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/digui/Grammar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/digui/Predictive_Parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/digui/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Predictive_parser/Predictive_Praser.py" beforeDir="false" afterPath="$PROJECT_DIR$/Predictive_parser/Predictive_Parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Predictive_parser/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Predictive_parser/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scanner/Scanner.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scanner/Scanner.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,26 +61,75 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Scanner.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Scanner/Scanner.py">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Predictive_parser/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="135" column="18" lean-forward="true" selection-start-line="135" selection-start-column="18" selection-end-line="135" selection-end-column="18" />
+            <state relative-caret-position="321">
+              <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#125#471#0" />
-                <element signature="e#506#1378#0" />
-                <element signature="e#1203#1352#0" />
-                <element signature="e#2164#2229#0" />
-                <element signature="e#4339#4364#0" />
+                <element signature="e#215#242#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="input.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scanner/input.cpp">
+      <file leaf-file-name="Grammar.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Predictive_parser/Grammar.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="82" column="12" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="12" />
+              <folding>
+                <element signature="e#503#1006#0" />
+                <element signature="e#1055#2404#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Predictive_Parser.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Predictive_parser/Predictive_Parser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+              <folding>
+                <element signature="e#227#254#0" expanded="true" />
+                <element signature="e#572#1371#0" />
+                <element signature="e#1411#2370#0" />
+                <element signature="e#2419#3065#0" />
+                <element signature="e#3099#3868#0" />
+                <element signature="e#3903#4696#0" />
+                <element signature="e#4732#6041#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="experiment.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Predictive_parser/experiment.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/digui/main.py">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Grammar.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/digui/Grammar.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Predictive_Parser.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/digui/Predictive_Parser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="50" column="45" lean-forward="true" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -122,19 +176,22 @@
         <option value="$PROJECT_DIR$/Predictive_parser/datain2.txt" />
         <option value="$PROJECT_DIR$/Predictive_parser/datain3.txt" />
         <option value="$PROJECT_DIR$/Predictive_parser/datain4.txt" />
-        <option value="$PROJECT_DIR$/Predictive_parser/Predictive_Parser.py" />
         <option value="$PROJECT_DIR$/Predictive_parser/132.py" />
         <option value="$PROJECT_DIR$/Predictive_parser/Grammar.py" />
         <option value="$PROJECT_DIR$/Predictive_parser/data4.1_origin.txt" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/Simple_Analysis/data5.3_origin.txt" />
         <option value="$PROJECT_DIR$/Simple_Analysis/Grammar.py" />
-        <option value="$PROJECT_DIR$/Predictive_parser/main.py" />
         <option value="$PROJECT_DIR$/Predictive_parser/Predictive_Praser.py" />
         <option value="$PROJECT_DIR$/Simple_Analysis/Simple_Analysis.py" />
         <option value="$PROJECT_DIR$/Operator_Analysis/Operator_Analysis.py" />
         <option value="$PROJECT_DIR$/Operator_Analysis/Operator_Analysis.ipynb" />
         <option value="$PROJECT_DIR$/Scanner/Scanner.py" />
+        <option value="$PROJECT_DIR$/Predictive_parser/experiment.txt" />
+        <option value="$PROJECT_DIR$/Predictive_parser/Predictive_Parser.py" />
+        <option value="$PROJECT_DIR$/digui/main.py" />
+        <option value="$PROJECT_DIR$/digui/Predictive_Parser.py" />
+        <option value="$PROJECT_DIR$/Predictive_parser/main.py" />
       </list>
     </option>
   </component>
@@ -159,7 +216,12 @@
             <path>
               <item name="Python_Programming" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python_Programming" type="462c0819:PsiDirectoryNode" />
-              <item name="Scanner" type="462c0819:PsiDirectoryNode" />
+              <item name="digui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python_Programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_Programming" type="462c0819:PsiDirectoryNode" />
+              <item name="Predictive_parser" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -173,13 +235,14 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ZGC_T\PycharmProjects\Python_Programming" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/digui" />
       <recent name="$PROJECT_DIR$/Scanner" />
       <recent name="$PROJECT_DIR$/Simple_Analysis" />
       <recent name="C:\Users\ZGC_T\PycharmProjects\Python_Programming\Predictive_parser" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ZGC_T\PycharmProjects\Python_Programming" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -194,7 +257,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Scanner">
+  <component name="RunManager" selected="Python.main">
     <configuration name="Operator_Analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_Programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -213,6 +276,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="Predictive_Parser" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_Programming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/digui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/digui/Predictive_Parser.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="Predictive_Praser" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_Programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -225,7 +306,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Predictive_parser/Predictive_Praser.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Predictive_parser/Predictive_Parser.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -244,24 +325,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scanner/Scanner.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="Simple_Analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_Programming" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Simple_Analysis" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Simple_Analysis/Simple_Analysis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -288,17 +351,17 @@
     <list>
       <item itemvalue="Python.main" />
       <item itemvalue="Python.Predictive_Praser" />
-      <item itemvalue="Python.Simple_Analysis" />
       <item itemvalue="Python.Operator_Analysis" />
       <item itemvalue="Python.Scanner" />
+      <item itemvalue="Python.Predictive_Parser" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.Predictive_Parser" />
+        <item itemvalue="Python.Predictive_Praser" />
         <item itemvalue="Python.Scanner" />
         <item itemvalue="Python.Operator_Analysis" />
-        <item itemvalue="Python.Simple_Analysis" />
-        <item itemvalue="Python.Predictive_Praser" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -326,15 +389,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.19553903" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.19479553" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.93650794" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32756132" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25685427" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32899022" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32756132" />
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32681867" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.37373737" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -345,7 +410,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32756132" />
     </layout>
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -363,46 +427,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Predictive_parser/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="29" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Predictive_parser/Predictive_Praser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="122" column="35" lean-forward="true" selection-start-line="122" selection-start-column="35" selection-end-line="122" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Predictive_parser/datain4.9_v1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Predictive_parser/data4.1_origin.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Predictive_parser/Grammar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Predictive_parser/Predictive_Praser.py">
+    <entry file="file://$PROJECT_DIR$/Predictive_parser/Predictive_Parser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2850">
           <caret line="196" column="19" selection-start-line="196" selection-start-column="19" selection-end-line="196" selection-end-column="19" />
@@ -466,20 +495,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Predictive_parser/132.py" />
     <entry file="file://$PROJECT_DIR$/Predictive_parser/Predictive_Parser.py" />
-    <entry file="file://$PROJECT_DIR$/Predictive_parser/datain4.9_v1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Predictive_parser/data4.1_origin.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$PROJECT_DIR$/Operator_Analysis/data5.3_origin.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -488,31 +503,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Predictive_parser/Grammar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="82" column="24" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Predictive_parser/Predictive_Praser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="172" column="24" selection-start-line="172" selection-start-column="24" selection-end-line="172" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pandas/core/indexes/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
           <caret line="3123" selection-start-line="3123" selection-end-line="3123" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Predictive_parser/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -534,9 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="179" column="20" selection-start-line="179" selection-start-column="20" selection-end-line="179" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -547,21 +538,94 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Scanner/Scanner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="132" column="11" selection-start-line="132" selection-start-column="11" selection-end-line="132" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scanner/Scanner.spec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Scanner/input.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scanner/Scanner.py">
+    <entry file="file://$PROJECT_DIR$/Predictive_parser/data4.1_origin.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="135" column="18" lean-forward="true" selection-start-line="135" selection-start-column="18" selection-end-line="135" selection-end-column="18" />
+        <state relative-caret-position="225">
+          <caret line="15" column="4" lean-forward="true" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Predictive_parser/datain4.9_v1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Predictive_parser/experiment.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digui/main.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digui/Grammar.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Predictive_parser/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#125#471#0" />
-            <element signature="e#506#1378#0" />
-            <element signature="e#1203#1352#0" />
-            <element signature="e#2164#2229#0" />
-            <element signature="e#4339#4364#0" />
+            <element signature="e#215#242#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Predictive_parser/Grammar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="82" column="12" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="12" />
+          <folding>
+            <element signature="e#503#1006#0" />
+            <element signature="e#1055#2404#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Predictive_parser/Predictive_Parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+          <folding>
+            <element signature="e#227#254#0" expanded="true" />
+            <element signature="e#572#1371#0" />
+            <element signature="e#1411#2370#0" />
+            <element signature="e#2419#3065#0" />
+            <element signature="e#3099#3868#0" />
+            <element signature="e#3903#4696#0" />
+            <element signature="e#4732#6041#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digui/Predictive_Parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="50" column="45" lean-forward="true" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
         </state>
       </provider>
     </entry>

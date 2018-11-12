@@ -1,7 +1,6 @@
-import numpy as np
 import pandas as pd
-from matplotlib import pyplot as plt
-
+import os
+import sys
 
 class Scanner:
     def __init__(self):
@@ -134,7 +133,12 @@ class Scanner:
 def main():
     scanner = Scanner()
     scanner.init()
-    scanner.read_from_file('./input.cpp')
+    if getattr(sys, 'frozen', False):
+        application_path = os.path.dirname(sys.executable)
+    elif __file__:
+        application_path = os.path.dirname(__file__)
+    file_path = os.path.join(application_path,'input.cpp')
+    scanner.read_from_file(file_path)
     scanner.getsym()
 
 
@@ -144,3 +148,4 @@ if __name__ == '__main__':
     print('Editor : Pycharm')
     print('Tools : pandas')
     main()
+
