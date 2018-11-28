@@ -8,11 +8,6 @@
 @desc:
 '''
 
-from Grammar import Grammar
-import pandas as pd
-import numpy as np
-
-
 class Predictive_Parser:
     def __init__(self):
         self.str_id = 0
@@ -109,6 +104,7 @@ class Predictive_Parser:
 
 
 def main():
+
     parser = Predictive_Parser()
     parser.judge('eadeaa#')
 

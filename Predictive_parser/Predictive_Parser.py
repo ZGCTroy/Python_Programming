@@ -165,6 +165,7 @@ class Predictive_Parser:
         :param str: 要代入预测分析器进行语法分析预测的字符串
         :return:
         """
+        print("\n当前分析的字符串为 {} ".format(str))
         curstack = ['#']
         curstack.extend(self.grammar.start_symbols)
         leftstack = list(str)
@@ -197,7 +198,6 @@ class Predictive_Parser:
                     str = list(str)
                     str.reverse()
                     curstack.extend(str)
-            print(row)
             data.append(row)
 
         data = pd.DataFrame(data=data,columns=['curstack','curchar','leftstack','P'])
